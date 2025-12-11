@@ -2,7 +2,7 @@ import streamlit as st
 
 # Page Setup
 st.set_page_config(
-    page_title="Housing Calculations",
+    page_title="Housing Individual Calculations",
     page_icon=":material/functions:",
     layout="wide",
 )
@@ -54,4 +54,4 @@ with st.sidebar:
 
 
 # Tabs Setup
-tab1, tab2, tab3 = st.tabs(["Individual", "Variations", "Borrowing Power"])
+tab1, tab2, tab3 = st.tabs(["Canberra", "Melbourne", "Borrowing Power"])
